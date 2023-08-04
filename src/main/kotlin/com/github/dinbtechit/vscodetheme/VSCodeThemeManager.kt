@@ -9,7 +9,8 @@ import com.intellij.openapi.extensions.PluginId
 enum class VSCodeTheme(val theme: String) {
     UNKNOWN("UNKNOWN"),
     DARK("VSCode Dark"),
-    DARK_MODERN("VSCode Dark Modern");
+    DARK_MODERN("VSCode Dark Modern"),
+    LIGHT("VSCode Light");
 }
 
 class VSCodeThemeManager {

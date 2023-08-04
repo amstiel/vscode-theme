@@ -123,6 +123,7 @@ class VSCodeStartupNotifyActivity : StartupActivity {
                     addAction(DefaultActionGroup("Show All", false).apply {
                         add(AlwaysApplyThemeAction(text = VSCodeTheme.DARK_MODERN.theme , vscodeTheme = VSCodeTheme.DARK_MODERN))
                         add(AlwaysApplyThemeAction(text = VSCodeTheme.DARK.theme, vscodeTheme = VSCodeTheme.DARK))
+                        add(AlwaysApplyThemeAction(text = VSCodeTheme.LIGHT.theme, vscodeTheme = VSCodeTheme.LIGHT))
                     })
                 } else if (displayActionType == DisplayActionType.SHOW_NEW_DARK_MODERN_THEME) {
                     addAction(AlwaysApplyThemeAction(text = "Switch Now" , vscodeTheme = VSCodeTheme.DARK_MODERN))
